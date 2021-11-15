@@ -16,6 +16,6 @@ Apply this to both currently admitted patients and to the arrival stream forecas
 
 For currently admitted patients, use conditional probability. I.e. a patient of type j who has already been admitted for m days has a probability of still being admitted on day n (n > m) of P(j, n | m) = P(j, n) / P(j, m). *
 
-* For stats nerds... If A is 'being admitted on day n' and B is 'being admitted on day m', then P(A & B) = P(A) for n > m, as you can't be admitted for n days and not also be admitted for m days. This is how we can simplify conditional probability as we did above.
+\* For stats nerds... If A is 'being admitted on day n' and B is 'being admitted on day m', then P(A & B) = P(A) for n > m, as you can't be admitted for n days and not also be admitted for m days. This is how we can simplify conditional probability as we did above.
 
 Now, add them all up! This allows for an operational decision support tool, where leadership can switch different patient types / arrival streams on and off and see the impact on occupancy.
